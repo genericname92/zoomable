@@ -1,0 +1,25 @@
+.zoomable {
+  width: 400px;
+  position: relative;
+  float: left;
+}
+
+.zoomable img {
+  width: 100%;
+}
+
+.focus-box {
+  border: 1px solid purple;
+  width: 100px;
+  height: 100px;
+  content: "";
+  position: absolute;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.zoomed-image {
+  float: left;
+  position: relative;
+  background-repeat: no-repeat;
+}
